@@ -6,13 +6,13 @@ This project is the beginning of a full clone of the AirBnB web application. The
 In order to get the AirBnB clone up and running the Github repository must first be cloned to your local machine with the following command:
 
 ### With SSH
-`$ git clone git@github.com:jagrvargen/AirBnB_clone.git
+```$ git clone git@github.com:jagrvargen/AirBnB_clone.git```
 
 ### With a URL
-`$ git clone https://github.com/jagrvargen/AirBnB_clone.git
+```$ git clone https://github.com/jagrvargen/AirBnB_clone.git```
 
 Once downloaded, change into the AirBnB directory and open the console by typing:
-`$ ./console.py
+```$ ./console.py```
 
 ## Features
 This part of the project feautures a command line interpreter intended for future debugging. It includes a short list of commands intended to aid in creating and modifying user data stored in a JSON file.
@@ -20,10 +20,10 @@ This part of the project feautures a command line interpreter intended for futur
 ### Command Interpreter
 
 The command interpreter can be run in interactive mode via the following command:
-`$ ./console.py
+```$ ./console.py```
 
 The command interpreter can also be used in non-interactive mode by passing commands to it via piping:
-`$ echo "help" | ./console.py
+```$ echo "help" | ./console.py```
 
 #### Commands
 
@@ -42,7 +42,7 @@ Commands | Description | Usage
 ## Tests
 
 This package contains extensive unittests to ensure sound functionality of all enclosed modules. Tests can be run via the command:
-`$ python3 -m unittest discover tests
+```$ python3 -m unittest discover tests```
 
 ## Bugs
 
