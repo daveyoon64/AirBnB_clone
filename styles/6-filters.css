@@ -1,0 +1,101 @@
+.filters {
+  overflow: hidden;
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
+
+.filters ul{
+  list-style-type: none;
+}
+
+/* CSS for button */
+.filters button {
+  font-size: 18px;
+  background-color: #FF5A5F;
+  color: #FFFFFF;
+  height: 48px;
+  width: 20%;
+  /* turn off box shadow */
+  border: 0;
+  border-radius: 4px;
+  /* vertically aligns the button */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* align button right with 30px margin */
+  float: right;
+  margin-right: 30px;
+}
+
+.filters button:hover {
+  opacity: 0.9;
+}
+
+/* popovers */
+.filters .popover {
+  background-color: #FAFAFA;
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  width: 25%;
+  margin-left: -41px;
+  margin-top: 11px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.filters div:hover .popover {
+  display: block;
+}
+
+.filters .popover {
+  position: absolute;
+  display: none;
+}
+
+.filters li {
+  padding: 5px;
+}
+
+/* CSS for locations */
+.filters .locations {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid #DDDDDD;
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.filters .locations h3 {
+  font-weight: 600;
+}
+
+.filters .locations h4 {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+/* CSS for amenities */
+.filters .amenities {
+  height: 100%;
+  width: 25%;
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.filters .amenities h3 {
+  font-weight: 600;
+}
+
+.filters .amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 10px;
+}
