@@ -1,21 +1,36 @@
-/* CSS Reset */
 html, body, div, h1, h2, h3, h4, .popover{
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+
+
+html {
   margin: 0;
   padding: 0;
   border: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 2rem;
+  min-height: 98%;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-color: #484848;
   font-size: 14px;
 }
 
 .container {
+  margin: 0 auto;
   max-width: 1000px;
-  margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  position: center;
-  position: relative;
+  width: 100%;
+}
+
+.container article {
+  margin-top: 0;
 }
