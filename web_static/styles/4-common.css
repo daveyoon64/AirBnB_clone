@@ -4,11 +4,7 @@ html, body, div, h1, h2, h3, h4, .popover{
    border: 0;
  }
 
-
 html {
-  margin: 0;
-  padding: 0;
-  border: 0;
   height: 100%;
   box-sizing: border-box;
 }
@@ -28,9 +24,4 @@ body {
   max-width: 1000px;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%;
-}
-
-.container article {
-  margin-top: 0;
 }

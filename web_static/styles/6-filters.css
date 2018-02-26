@@ -1,10 +1,11 @@
 .filters {
-  overflow: hidden;
+  width: 100%;
+  position: relative;
   background-color: white;
   height: 70px;
-  width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
+  padding-bottom: 10px;
 }
 
 .filters ul{
@@ -17,7 +18,7 @@
   background-color: #FF5A5F;
   color: #FFFFFF;
   height: 48px;
-  width: 20%;
+  width: 25%;
   /* turn off box shadow */
   border: 0;
   border-radius: 4px;
@@ -32,32 +33,6 @@
 
 .filters button:hover {
   opacity: 0.9;
-}
-
-/* popovers */
-.filters .popover {
-  background-color: #FAFAFA;
-  border: 1px solid #DDDDDD;
-  border-radius: 4px;
-  width: 13.8%;
-  margin-left: -41px;
-  margin-top: 14px;
-  padding-left: 40px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-.filters div:hover .popover {
-  display: block;
-}
-
-.filters .popover {
-  position: absolute;
-  display: none;
-}
-
-.filters li {
-  padding: 5px;
 }
 
 /* CSS for locations */
@@ -97,4 +72,27 @@
   font-weight: 400;
   font-size: 14px;
   padding-top: 10px;
+}
+
+/* popovers */
+.filters .popover {
+  position: absolute;
+  display: none;
+  background-color: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  width: 25%;
+  margin-left: -41px;
+  margin-top: 24px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.filters div:hover .popover {
+  display: block;
+}
+
+.filters li {
+  padding: 5px;
 }
